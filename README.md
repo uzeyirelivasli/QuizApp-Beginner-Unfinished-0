@@ -6,4 +6,4 @@
  - after answer a question, at the next question checkbox stays checked
  - I need to add green(true) and red(false) background after checkbox checked
  
- (https://github.com/uzeyirelivasli/QuizApp-Beginner-Unfinished-0/blob/main/QuizApp-image.png)
+ ![imaage of QuizApp](https://github.com/uzeyirelivasli/QuizApp-Beginner-Unfinished-0/blob/main/QuizApp-image.png)
