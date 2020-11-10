@@ -7,4 +7,4 @@
  - I need to add green(true) and red(false) background after checkbox checked
 
 
-![Image of QuizApp](https://octodex.github.com/2020-11-10.png)
+![Image of QuizApp](https://github.com/2020-11-10.png)
