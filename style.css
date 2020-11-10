@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+#container {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+body {
+  display: flex;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  justify-content: center;
+}
+img {
+  display: flex;
+  width: 450px;
+  max-height: 225px;
+  object-fit: cover;
+}
+#img-div {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 80px 0;
+}
+#answers {
+  margin: 0 0 23px 23px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  min-width: 70px;
+  outline: none;
+}
+button:hover {
+  background-color: cadetblue;
+}
+#btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#lil-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#answers > div {
+  margin-top: 20px;
+  font-size: 18px;
+}
+input {
+  margin-right: 1rem;
+  margin-left: 0.75rem;
+}
+#question {
+  font-size: 23px;
+  font-weight: 600;
+  margin: 20px 0px 40px 25px;
+}
+#lil-info #first {
+  font-size: 23px;
+  font-weight: bold;
+}
+#lil-info #second {
+  font-size: 23px;
+  color: beige;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <title>QuizApp-JS-Beginner</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="lil-info">
+        <span id="first"></span><span id="second">/5</span>
+      </div>
+      <div id="question" class="hide"></div>
+      <div id="img-div">
+        <img
+          id="img"
+          src="https://www.zieler.co.uk/wp-content/uploads/2020/05/Lets-Get-Started-2-1-1024x480.jpg"
+          alt="question"
+          srcset=""
+        />
+      </div>
+      <div id="answers" class="hide">
+        <div>
+          <input type="checkbox" id="answer1" class="input" />
+          <label for="answer1" class="answer1"></label><br />
+        </div>
+        <div>
+          <input type="checkbox" id="answer2" class="input" />
+          <label for="answer2" class="answer2"></label><br />
+        </div>
+        <div>
+          <input type="checkbox" id="answer3" class="input" />
+          <label for="answer3" class="answer3"></label><br />
+        </div>
+        <div>
+          <input type="checkbox" id="answer4" class="input" />
+          <label for="answer4" class="answer4"></label><br />
+        </div>
+      </div>
+      <div id="btn-div">
+        <button id="start-next-check-btn">GET STARTED</button>
+      </div>
+    </div>
+    <!-- get script files -->
+    <script src="app.js"></script>
+    <script src="allQuests.js"></script>
+    <script src="getNeeds.js"></script>
+    <script src="buttonsJob.js"></script>
+  </body>
+</html>
