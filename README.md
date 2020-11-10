@@ -5,3 +5,6 @@
  - how many question is correct
  - after answer a question, at the next question checkbox stays checked
  - I need to add green(true) and red(false) background after checkbox checked
+
+
+![Image of QuizApp](https://octodex.github.com/2020-11-10.png)
